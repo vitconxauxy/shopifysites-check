@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  docker-test:
+    build:
+      context: .
+    image: shopifysites-check
+    container_name: shopifysites-check
